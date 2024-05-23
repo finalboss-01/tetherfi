@@ -17,7 +17,8 @@
 import java.util.Properties
 
 plugins {
-  id("com.android.application")
+ // id("com.android.application")
+id("com.android.library")
   id("com.google.devtools.ksp")
 }
 
@@ -27,7 +28,7 @@ android {
   compileSdk = rootProject.extra["compileSdk"] as Int
 
   defaultConfig {
-    applicationId = "com.pyamsoft.tetherfi"
+    // applicationId = "com.pyamsoft.tetherfi"
 
     versionCode = 41
     versionName = "20240501-1"
